@@ -1,0 +1,23 @@
+.q {
+    text-decoration: underline ;
+    text-align: center;
+    font-family: Georgia;
+    background-color: rgb(132, 96, 165);
+    border-radius: 10px;
+}
+.m{
+    text-decoration: underline ;
+    text-align: center;
+    font-family: Georgia;
+    background-color: antiquewhite;
+    border-radius: 10px;
+
+}
+.v{
+    text-decoration: underline ;
+    text-align: center;
+    font-family: Georgia;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
