@@ -1,0 +1,100 @@
+
+body{
+    font-family: Georgia;
+    margin: 0%;
+}
+
+header{
+    display:flex;
+    height: 60px;
+    background-color: aqua;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.iconn{
+
+    display: flex;
+}
+.icon{
+    height: 60px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color:white;
+}
+.one{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+.to{
+    background-color: rgb(28, 142, 177);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+.tre{
+    background-color: rgb(16, 182, 113);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+
+
+}
+
+.cuatro{
+    background-color: rgb(136, 64, 218);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+
+}
+.cinco{
+    background-color: rgb(183, 45, 218);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+
+}
+.seis{
+    background-color: rgb(190, 204, 65);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+
+}
+.siete{
+    background-color: rgb(219, 166, 52);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+
+}
+.ocho{
+    background-color: rgb(226, 104, 124);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+.nueve{
+    background-color: rgb(57, 212, 240);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+.dies{
+    background-color: rgb(235, 96, 96);
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
