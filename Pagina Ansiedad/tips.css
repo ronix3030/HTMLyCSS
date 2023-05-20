@@ -12,6 +12,7 @@ header{
     align-items: center;
     
 }
+
 .iconn{
 
     display: flex;
@@ -31,70 +32,85 @@ nav a{
 nav a:hover{
     color:white;
 }
-.one{
-    background-color: aquamarine;
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
 }
-.to{
-    background-color: rgb(28, 142, 177);
+
+h2{
     text-align: center;
-    margin: 30px;
-    padding: 30px;
 }
-.tre{
+img{
+    width: 150px
+    ;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(68, 65, 243);
+}
+
+.content3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(16, 182, 113);
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
 
 
 }
 
-.cuatro{
+.content4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(136, 64, 218);
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
-
 }
-.cinco{
-    background-color: rgb(183, 45, 218);
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
 
-}
-.seis{
+
+.content5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(190, 204, 65);
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
-
 }
-.siete{
+
+
+.content6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 74, 74);
+}
+
+.content7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(219, 166, 52);
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
+}
+
+.content8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(232, 62, 238);
+
 
 }
-.ocho{
-    background-color: rgb(226, 104, 124);
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
-}
-.nueve{
+.content9{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(57, 212, 240);
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
 }
-.dies{
+.content10{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(235, 96, 96);
-    text-align: center;
-    margin: 30px;
-    padding: 30px;
+
 }
