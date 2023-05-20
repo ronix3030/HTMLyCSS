@@ -55,6 +55,10 @@ img{
     ;
     border-radius: 20px;
 }
+.imgM{
+    width: 180px;
+    
+}
 .content2{
     display: flex;
     justify-content: space-between;
@@ -103,7 +107,7 @@ img{
     align-items: center;
     background-color: rgb(190, 204, 65);
     margin: 15px;
-    padding: 25px;
+    padding: 15px;
     border-radius: 30px;
     border-radius: 50px;
     margin-left: 100px;
@@ -130,7 +134,7 @@ img{
     align-items: center;
     background-color: rgb(219, 166, 52);
     margin: 15px;
-    padding: 25px;
+    padding: 15px;
     border-radius: 30px;
     border-radius: 50px;
     margin-left: 100px;
@@ -157,7 +161,7 @@ img{
     align-items: center;
     background-color: rgb(57, 212, 240);
     margin: 15px;
-    padding: 25px;
+    padding: 15px;
     border-radius: 30px;
     border-radius: 50px;
     margin-left: 100px;
@@ -169,7 +173,7 @@ img{
     align-items: center;
     background-color: rgb(235, 96, 96);
     margin: 15px;
-    padding: 25px;
+    padding: 15px;
     border-radius: 30px;
     border-radius: 50px;
     margin-left: 100px;
