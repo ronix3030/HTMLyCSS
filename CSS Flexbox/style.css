@@ -7,9 +7,12 @@ body{
     background-color: rgb(132, 155, 155);
     padding: 20px;
     flex-direction: row; /* orgraniza los elementos vertical u orizontal ,defecto */
+    justify-content: space-between ;  
+    align-items: center; /*organiza los elementos en el centro de la caja */
+    height: 300px; /*altura del contenedor  */
 }
 .caja{
-border: 1px solid black; /*Borde del archivo*/
+    border: 4px solid black; /*Borde del archivo*/
     background-color: white; /*Fondo de color del archivo*/
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;    /*Grosor de la letra */
@@ -18,4 +21,31 @@ border: 1px solid black; /*Borde del archivo*/
     line-height: 120px;    /*altura del texto le di 120 px para que este centro */
     text-align: center; /*centra el texto de manera horizontal*/
     margin: 10px;
+}
+/*Todo elemento que este dentro un flex container puedo modificar el orden */
+.c1{ 
+    background-color: antiquewhite;
+    order: 2; /*solo se puede usar esta propiedad en el flex box  */
+    flex-grow:1 ; /*Prioridad de ancho cierto elemento que otro dentro del mismo se reparte dentro de la caja*/
+    flex-basis: 25%; /*ancho del elemento en porcentaje en ves de usar width*/
+    border-color: blueviolet; /*se aplica el color ultimo */
+
+
+}
+.c2{
+    background-color: blue;
+    order: 1;
+    flex-grow: 1;
+    flex-basis: 25%;
+    border-color: aqua;
+    
+
+}
+.c3{
+    background-color: greenyellow;
+    order: 3;
+    flex-grow: 1;
+    flex-basis: 25%;
+    border-color: rgb(221, 20, 188);
+
 }
