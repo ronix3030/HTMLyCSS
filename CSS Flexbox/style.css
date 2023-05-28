@@ -6,15 +6,16 @@ body{
     border: 1px solid black;
     background-color: rgb(132, 155, 155);
     padding: 20px;
+    flex-direction: row; /* orgraniza los elementos vertical u orizontal ,defecto */
 }
 .caja{
-    border: 1px solid black; /*Borde del archivo*/
+border: 1px solid black; /*Borde del archivo*/
     background-color: white; /*Fondo de color del archivo*/
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    width: 120px;         /*Ancho del archivo*/
+    font-weight: bold;    /*Grosor de la letra */
+    width: 120px;         /*Ancho del archivo que contiene */
     height: 120px;        /*Altura del archivo*/
-    line-height: 120px;
-    text-align: center;
+    line-height: 120px;    /*altura del texto le di 120 px para que este centro */
+    text-align: center; /*centra el texto de manera horizontal*/
     margin: 10px;
 }
