@@ -47,41 +47,30 @@ h1 {
 
 }
 .info{
- 
+
 }
 
+
+
+footer {
+    background-color: rgb(43, 42, 42);
+    padding: 10px;
+}
 
 .redes {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0,0,0,.3);
-    padding: 20px;
+}
+.redes img {
+    margin: 5px;
+    height: 50px;
 }
 
-footer {
-    font-size: 16px;
-    color: #333;
+.cop {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-.redes ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.cop p {
+    color: white;
 }
-
-.redes ul li {
-    margin-right: 10px;
-}
-
-.redes ul li img {
-    width: 50px;
-    height: auto;
-}
-
