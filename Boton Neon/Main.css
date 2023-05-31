@@ -20,7 +20,9 @@ button{
     border: 3px solid #00ccff;
 
 }
-button:hover{
+/*En CSS, el efecto "hover" se utiliza para aplicar estilos a 
+un elemento cuando el cursor del mouse se encuentra sobre él.*/
+button:hover{ 
     box-shadow: 0 0 10px  #00ccff,
     0 0 20px #2fe2c4,
     0 0 50px #d5e926,
