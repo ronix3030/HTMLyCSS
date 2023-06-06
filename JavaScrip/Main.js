@@ -49,17 +49,40 @@ else{
         
     }
 // ejemplo4:
+// solo se ejecutara un bloque dentro de la condicion
 let ol=100;
-if(ol<100){
-    let qw=50; let au=50;
+if(ol==100){
+    let qw=50; let au=40;
     let result=qw+au;
-    console.log("la suma es"+result);
+    console.log("la suma es" + result);
 }
-else if(ol>=result){
-    console.log("El resultado es mayor o igual a 100");
+else if(result<200){
+    console.log("El resultado es menor a 100");
 }
 else{
-    console.log()
+    console.log("error")
 }
 
 
+//BUCLES
+//el bucle while es una estructura de control que permite ejecutar repetidamente un bloque
+// de código siempre que se cumpla una condición especificada
+//WHILE
+console.log("WHILE");   
+let contador= 0
+while(contador <4){
+    console.log(contador);
+    contador = contador +1
+}
+console.log("For")
+// FOR
+for (let contador2 = 0; contador2 < 3; contador2++) {
+    console.log(contador2);
+}
+
+// FUNCIONES
+function Saludar(nom,edad){
+    console.log("Mi nombre es "+nom +"y mi edad es"+ edad );
+
+}
+Saludar ("Ronald ",24); 
