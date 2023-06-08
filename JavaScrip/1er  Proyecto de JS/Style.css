@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+}
+input{
+    display: block;   /*se pone en formato bloque */
+    margin:auto;
+    margin-bottom: 15px; /* separacion entre inputs*/
+}
