@@ -68,6 +68,7 @@ else{
 //el bucle while es una estructura de control que permite ejecutar repetidamente un bloque
 // de código siempre que se cumpla una condición especificada
 //WHILE
+console.log("--------------BUCLES-----------")
 console.log("WHILE");   
 let contador= 0
 while(contador <4){
@@ -81,8 +82,54 @@ for (let contador2 = 0; contador2 < 3; contador2++) {
 }
 
 // FUNCIONES
+console.log("--------------FUNCIONES---------------")
+console.log("Suma");
 function Saludar(nom,edad){
     console.log("Mi nombre es "+nom +"y mi edad es"+ edad );
-
 }
 Saludar ("Ronald ",24); 
+// otro ejemplo
+console.log("Funcion multiplique") // modo simple 
+function multi(uno,dos){
+    console.log(uno*dos)
+}
+multi (20,20);
+// Similar ejemplo
+function multi2(one,two){
+    result=one  * two;
+    return result; // encadenar funciones 
+}
+let resultado=multi(2,2); // la variable let restringe el acceso osea solo existe dentro de la funcion
+console.log (resultado);
+
+//ARREGLOS O ARRAYS
+// Los corchetes indican que se trata de un arreglo
+console.log ("-----------ARRAYS------------");
+let Miarreglo = ["Pablo","Maria","Juan","Perez","Luis"];
+for (let i=0; i<4;i++ ){
+    console.log ("Accediendo al indice" +i);
+    let mostrar=Miarreglo[i];
+    console.log (mostrar);  
+
+}
+
+//OBEJETOS
+// las llaves significa objetos
+console.log("------------OBJETOS------------")
+let miobj={
+    nombre:"David",
+    edad:27,
+    masculino:true,
+};
+miobj.nombre="Carlos" // cambiando una propiedad del obejto 
+console.log (miobj);
+let person2={
+    nombre:"Ronald",
+    edad:90,
+    estadC:"Soltero",
+    Genero:"Masculino",
+};
+person2.estadC="Casado";
+console.log (person2);
+
+
