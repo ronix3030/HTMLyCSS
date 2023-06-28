@@ -1,0 +1,15 @@
+font-family= Permite modificar el Tipo de Letra (Usara el 1er tipo de letra definido)
+font-size= Especifica el Tamaño de la Letra (px)
+font-weight= Permite el Grosor de la Letra (normal o bold)
+font-style= Estilo de la letra(italic o oblique)
+font-variant = Permite variaciones del tipo de letra
+
+text-align = Se emplea para definir la alieneacion del texto(left,rigth,center,justify)
+text-indent = Permite la sangria del texto (px)
+text-decoration = Decoracion del Texto ( underline,overline,line-though,blink)
+text-transform = Permite Mayus o Minus (capitalize,uppercase,lowecase)
+ 
+letter-spacing = Espacion entre Caracteres (px,%)
+word-spacing = Espacio entre Palabras (px,%)
+line-height = Altura minima entre lineas de texto(px,%)
+white-space = Asigna un Salto de linea(pre)
